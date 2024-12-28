@@ -1,0 +1,175 @@
+{
+    "intents": [
+      {
+        "tag": "Common Cold",
+        "patterns": ["sneezing", "runny nose", "nasal congestion", "sore throat", "cough"],
+        "responses": ["You might have a common cold. Stay hydrated and rest."]
+      },
+      {
+        "tag": "Influenza",
+        "patterns": ["fever", "chills", "body aches", "fatigue", "cough", "sore throat"],
+        "responses": ["You may have influenza (flu). Consider consulting a doctor."]
+      },
+      {
+        "tag": "COVID-19",
+        "patterns": ["fever", "cough", "shortness of breath", "loss of taste", "loss of smell", "fatigue"],
+        "responses": ["You might have COVID-19. Please isolate yourself and get tested."]
+      },
+      {
+        "tag": "Diabetes",
+        "patterns": ["increased thirst", "frequent urination", "unexplained weight loss", "blurred vision", "fatigue"],
+        "responses": ["You may have symptoms of diabetes. A blood sugar test is recommended."]
+      },
+      {
+        "tag": "Hypertension",
+        "patterns": ["headache", "dizziness", "shortness of breath", "chest pain", "blurred vision"],
+        "responses": ["You may have hypertension (high blood pressure). Consult a doctor for evaluation."]
+      },
+      {
+        "tag": "Asthma",
+        "patterns": ["wheezing", "shortness of breath", "chest tightness", "coughing", "difficulty breathing"],
+        "responses": ["You may have asthma. Consider seeing a pulmonologist."]
+      },
+      {
+        "tag": "Pneumonia",
+        "patterns": ["fever", "chills", "cough with phlegm", "shortness of breath", "chest pain"],
+        "responses": ["You might have pneumonia. Please consult a healthcare professional immediately."]
+      },
+      {
+        "tag": "Migraine",
+        "patterns": ["intense headache", "nausea", "sensitivity to light", "sensitivity to sound", "visual disturbances"],
+        "responses": ["You may be experiencing a migraine. Rest in a dark room and consider over-the-counter pain relief."]
+      },
+      {
+        "tag": "Malaria",
+        "patterns": ["fever", "chills", "sweating", "headache", "nausea", "muscle pain"],
+        "responses": ["You might have malaria. Seek medical attention for confirmation and treatment."]
+      },
+      {
+        "tag": "Dengue",
+        "patterns": ["fever", "severe headache", "joint pain", "muscle pain", "rash", "fatigue"],
+        "responses": ["You may have dengue fever. Visit a doctor for proper diagnosis and treatment."]
+      },
+      {
+        "tag": "Anemia",
+        "patterns": ["fatigue", "pale skin", "shortness of breath", "dizziness", "cold hands and feet"],
+        "responses": ["You may have anemia. A blood test is recommended."]
+      },
+      {
+        "tag": "Tuberculosis",
+        "patterns": ["persistent cough", "weight loss", "night sweats", "fever", "fatigue", "chest pain"],
+        "responses": ["You might have tuberculosis. Consult a doctor immediately for tests and treatment."]
+      },
+      {
+        "tag": "Allergies",
+        "patterns": ["sneezing", "itchy eyes", "runny nose", "rash", "hives", "shortness of breath"],
+        "responses": ["You may have allergies. Avoid allergens and consider antihistamines."]
+      },
+      {
+        "tag": "Heart Disease",
+        "patterns": ["chest pain", "shortness of breath", "fatigue", "irregular heartbeat", "dizziness"],
+        "responses": ["You may have symptoms of heart disease. Seek immediate medical advice."]
+      },
+      {
+        "tag": "Appendicitis",
+        "patterns": ["abdominal pain", "nausea", "vomiting", "loss of appetite", "fever"],
+        "responses": ["You may have appendicitis. Immediate medical attention is required."]
+      },
+      {
+        "tag": "Acid Reflux",
+        "patterns": ["heartburn", "regurgitation", "sour taste in mouth", "difficulty swallowing", "chest pain"],
+        "responses": ["You might have acid reflux or GERD. Avoid spicy foods and consult a doctor if it persists."]
+      },
+      {
+        "tag": "Arthritis",
+        "patterns": ["joint pain", "stiffness", "swelling in joints", "reduced range of motion", "fatigue"],
+        "responses": ["You may have arthritis. Consider consulting a rheumatologist for proper diagnosis."]
+      },
+      {
+        "tag": "Depression",
+        "patterns": ["persistent sadness", "loss of interest", "fatigue", "difficulty concentrating", "sleep disturbances"],
+        "responses": ["You might be experiencing depression. Reach out to a mental health professional for support."]
+      },
+      {
+        "tag": "Hypothyroidism",
+        "patterns": ["fatigue", "weight gain", "cold intolerance", "dry skin", "hair thinning"],
+        "responses": ["You may have hypothyroidism. A thyroid function test is recommended."]
+      },
+      {
+        "tag": "Hyperthyroidism",
+        "patterns": ["weight loss", "rapid heartbeat", "sweating", "nervousness", "tremors"],
+        "responses": ["You might have hyperthyroidism. Consult an endocrinologist for further evaluation."]
+      },
+      {
+        "tag": "Cholera",
+        "patterns": ["watery diarrhea", "dehydration", "vomiting", "muscle cramps", "low blood pressure"],
+        "responses": ["You might have cholera. Immediate hydration and medical care are essential."]
+      },
+      {
+        "tag": "Hepatitis",
+        "patterns": ["jaundice", "fatigue", "nausea", "abdominal pain", "dark urine"],
+        "responses": ["You may have hepatitis. Please consult a doctor for appropriate tests and treatment."]
+      },
+      {
+        "tag": "Chickenpox",
+        "patterns": ["itchy rash", "fever", "fatigue", "loss of appetite", "fluid-filled blisters"],
+        "responses": ["You may have chickenpox. Rest and avoid scratching the rash to prevent infection."]
+      },
+      {
+        "tag": "Measles",
+        "patterns": ["fever", "rash", "runny nose", "cough", "red, watery eyes"],
+        "responses": ["You might have measles. Consult a healthcare provider for confirmation."]
+      },
+      {
+        "tag": "Meningitis",
+        "patterns": ["severe headache", "stiff neck", "fever", "nausea", "confusion", "sensitivity to light"],
+        "responses": ["You may have meningitis. Seek emergency medical care immediately."]
+      },
+      {
+        "tag": "Kidney Stones",
+        "patterns": ["severe back pain", "pain during urination", "nausea", "blood in urine", "frequent urination"],
+        "responses": ["You might have kidney stones. Drink plenty of water and consult a urologist."]
+      },
+      {
+        "tag": "Eczema",
+        "patterns": ["itchy skin", "red patches", "dry skin", "cracked skin", "swelling"],
+        "responses": ["You may have eczema. Use moisturizers and consult a dermatologist."]
+      },
+      {
+        "tag": "Psoriasis",
+        "patterns": ["red, scaly patches on skin", "itching", "dry skin", "joint pain", "cracked skin"],
+        "responses": ["You may have psoriasis. Consult a dermatologist for appropriate treatment."]
+      },
+      {
+        "tag": "Sinusitis",
+        "patterns": ["facial pain", "nasal congestion", "headache", "fever", "loss of smell"],
+        "responses": ["You may have sinusitis. Steam inhalation might help, but consult a doctor for persistent symptoms."]
+      },
+      {
+        "tag": "Ulcers",
+        "patterns": ["burning stomach pain", "bloating", "nausea", "loss of appetite", "weight loss"],
+        "responses": ["You might have a stomach ulcer. Avoid spicy foods and consult a gastroenterologist."]
+      },
+      {
+        "tag": "Skin Cancer",
+        "patterns": ["new skin growth", "changing moles", "sores that don’t heal", "itchy skin", "bleeding moles"],
+        "responses": ["You may have signs of skin cancer. Consult a dermatologist for an evaluation."]
+      },
+      {
+        "tag": "Stroke",
+        "patterns": ["sudden weakness", "numbness in face", "slurred speech", "loss of balance", "severe headache"],
+        "responses": ["You may be experiencing a stroke. Seek emergency medical care immediately."]
+      },
+      {
+        "tag": "Parkinson's Disease",
+        "patterns": ["tremors", "slowed movement", "rigid muscles", "impaired balance", "speech changes"],
+        "responses": ["You might have symptoms of Parkinson's disease. Consult a neurologist for assessment."]
+      },
+      {
+        "tag": "Celiac Disease",
+        "patterns": ["diarrhea", "abdominal pain", "bloating", "fatigue", "weight loss"],
+        "responses": ["You might have celiac disease. A gluten-free diet and medical consultation are recommended."]
+      }
+    ]
+  }
+  
